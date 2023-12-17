@@ -36,11 +36,7 @@ dotenv.config({ path: "./config.env" });
 const user = require("./routes/userRoute");
 const project = require("./routes/projectRoute");
 const internship = require("./routes/internshipRoute");
-// const order = require("./routes/orderRoute");
-// const payment = require("./routes/paymentRoute");
 
-//route
-// app.use("/api/v1", product);
 app.use("/api/v1", user);
 app.use("/api/v1", project);
 app.use("/api/v1", internship);
