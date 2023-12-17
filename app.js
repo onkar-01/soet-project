@@ -29,7 +29,6 @@ dotenv.config({ path: "./config.env" });
 // console.log(corsOptions);
 // app.use(cors(corsOptions));
 
-// Log the configuration
 
 //route Imoprt
 // const product = require("./routes/productRoute");
